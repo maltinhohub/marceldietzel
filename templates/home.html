@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center mt-4">
+    <!-- Logo in der Mitte oben -->
+    <img src="{{ url_for('static', filename='logomas.png') }}" alt="Logo" class="mb-4" style="max-width: 200px; height: auto;">
+    <h1>Willkommen bei M.A.S. UG</h1>
+
+    <!-- Text in zwei Spalten unterhalb der Überschrift -->
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Über uns</h2>
+            <div class="text-block">
+            <p>Willkommen bei M.A.S. UG, Ihrem vertrauenswürdigen Partner für hochwertige Handwerksleistungen im Innen- und Außenbereich. Seit knapp zwei Jahrzehnten verleiht meine Leidenschaft für Handwerkskunst und meine langjährige Erfahrung jedem Projekt eine persönliche Note und Exzellenz.</p>
+            <p>Meine Philosophie ist es, mit jedem Kunden eng zusammenzuarbeiten, um ihre Bedürfnisse und Wünsche zu verstehen und maßgeschneiderte Lösungen anzubieten. Ich bin stolz darauf, dass mein Geschäft größtenteils auf Empfehlungen von zufriedenen Kunden beruht, was die Qualität meiner Arbeit und mein Engagement für Kundenzufriedenheit unterstreicht. Kontaktieren Sie mich noch heute, um zu besprechen, wie ich Ihnen helfen kann, Ihr Zuhause zu verbessern und zu verschönern. Ich freue mich darauf, mit Ihnen zusammenzuarbeiten und Ihr Projekt zum Erfolg zu führen.</p>
+</div>
+        </div>
+        <div class="col-md-6">
+            <h2>Unsere Dienstleistungen</h2>
+            <div class="text-block">
+            <p>Als erfahrener Handwerker biete ich umfassende Dienstleistungen für Innenausbau und Außenarbeiten an. Von der Gestaltung und Renovierung Ihrer Innenräume bis hin zur Verschönerung und Pflege Ihrer Außenbereiche stehe ich Ihnen zur Seite, um Ihre Visionen Wirklichkeit werden zu lassen. </p>
+            <p>Im Innenbereich umfasst mein Leistungsspektrum individuelle Schreinerarbeiten, die Installation von Fußböden, Trockenbau, Malerarbeiten und vieles mehr. Jedes Projekt wird mit Sorgfalt und Präzision ausgeführt, um ein Ergebnis zu erzielen, das Ihren Erwartungen entspricht.</p>
+            <p> Im Außenbereich bin ich spezialisiert auf die Gestaltung und Pflege von Gärten, Terrassen, Fassaden und anderen Außenbereichen. Mit einem Auge für Details und Schönheit schaffe ich Außenräume, die Ihren Lebensstil ergänzen und Ihren Wohnraum erweitern. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="height: 80px;"></div>
+{% endblock %}
+
+

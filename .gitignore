@@ -1,0 +1,4 @@
+venv/               # Ignoriere das venv-Verzeichnis
+__pycache__/        # Ignoriere das __pycache__-Verzeichnis
+*.pyc               # Ignoriere alle .pyc-Dateien
+

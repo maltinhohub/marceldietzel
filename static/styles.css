@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background-image: url('/static/btor.jpg'); /* Pfad zum Hintergrundbild */
+    /*background-size: cover; /* Sorgt dafür, dass das Bild den gesamten verfügbaren Raum abdeckt */
+    /*background-position: center; /* Zentriert das Bild */
+    /*background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #228B22; /* Polizeigrün */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #228B22; /* Helles Grau, ändere die Farbe nach Bedarf */
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Optional: Fügt einen Schatten oben am Footer hinzu */
+}
+
+/* home
+/* Zentriertes Logo und Kopfzeile */
+.text-center img {
+    display: block;
+    margin: 0 auto; /* Zentriert das Bild horizontal */
+    max-width: 100%; /* Sorgt dafür, dass das Bild responsiv ist */
+    height: auto;
+}
+
+/* Styling für die Überschriften */
+h1, h2 {
+    color: #333; /* Dunkelgrau für Text */
+}
+
+/* Abstand und Textgestaltung für Spalten */
+.col-md-6 {
+    padding: 20px;
+}
+
+/*Kontakt*/
+.contact-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #228B22; /* Helles Grau für den Hintergrund */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Leichter Schatten für Tiefe */
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-form form {
+    width: 100%; /* Sorgt dafür, dass das Formular die volle Breite einnimmt */
+}
+
+.text-block {
+    text-align: justify; /* Blocksatz */
+}
